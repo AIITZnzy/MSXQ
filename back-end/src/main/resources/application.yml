@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/devcsw
+    #jdbc????? ????jdbc:mysql://????????:??/????
+    username: root
+    #?????
+    password: Aiit#040629
+    #?????
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #??????
+
+  ai:
+    openai:
+      api-key: sk-uq8kwbzUeyakWlsQxjeMWdVSc3IDQX4obwyxwNMt202XNvnh # 填写实际的API密钥
+      base-url: https://xiaoai.plus #路径

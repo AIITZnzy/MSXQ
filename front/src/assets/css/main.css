@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animatedInput {
+    @apply text-black dark:text-white bg-white dark:bg-gray-950 h-1/2 p-3 rounded-[12px] border-[1.5px] border-[#838383] outline-none transition-all duration-300 ease-[cubic-bezier(0.19,1,0.22,1)] shadow-[0px_0px_20px_-18px] hover:border-[#b9b9b9] hover:shadow-[0px_0px_20px_-17px] active:scale-95 focus:border-gray-500;
+}
